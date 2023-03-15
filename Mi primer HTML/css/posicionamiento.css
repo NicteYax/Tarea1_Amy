@@ -14,6 +14,13 @@
     background: palevioletred;
 }
 
+#three{
+    position: relative; /*relative, fixed, sticky, static, absolute*/
+    top: 50px;
+    left: 50px;
+    background: yellow;
+}
+
 .texto1{
     width: 600px;
     height: 400px;
