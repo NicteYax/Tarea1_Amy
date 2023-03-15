@@ -1,0 +1,46 @@
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h2{font-family: Arial, Helvetica, sans-serif;}
+
+.card{background-color: violet;}
+
+/*parte de section*/
+section{
+    width: 70%;
+    background-color: lightgray;
+    float: left;
+    margin: 10px;
+}
+/*parte de article*/
+article{
+    margin: 0.5em 3em;
+    padding: 0.5em 2em;
+    background-color: hotpink;
+    border: 10px solid black;
+    /*top, right, bottom, left*/
+    /*si tengo 4 términos se respeta ese orden, 
+    si tengo 2 términos el primero afecta arriba y abajo y el segundo izquierda y derecha,
+    uno solo afecta a todos*/
+
+}
+
+aside{
+    width: 25%;
+    float: left;
+    background-color: purple;
+}
+
+footer{
+background-color: blueviolet;
+width: auto;
+height: 60px;
+text-align: center;
+padding: 45px;
+margin: 10px;
+clear: both;
+}
+/*pixeles son medidas que no vana a cambiar en el proyecto, representado con px> son medidas absolutas*/
+/*em se utiliza para hacer referencia al tamaño de fuente del navegador> medidas relativas*/
+/*rem se adapta a la fuente raiz de html> medidas relativas*/
+/* el vw se calcula respecto al ancho de viewport, ejemplo 100 vw es igual al 100% de la ventana> medida flexible*/
+/*el vh se calcula respecto a la altura de viewport > meidas flexibles*/
+/*vmin/vmax se calculan respecto al ancho del viewport*/
